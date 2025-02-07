@@ -1,0 +1,81 @@
+code{
+  background-color: aliceblue;
+}
+.h11{
+  background-color: aquamarine;
+}
+:root {
+  font-family: "poppins",sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #1d1c1c;
+  background: linear-gradient(90deg, #8287c7 0%, #d55b1d 100%); 
+  background-size: 400% 400%;
+  animation: animationName 2s ease infinite;
+}
+.txt1{
+  font-size: 15px;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+.head{
+  display: flex;
+  margin-left: 1%;
+  margin-top: 2%;
+  background-color: #1d1c1ca1;
+  height: 65px;
+  border-radius: 50px;
+}
+.txt2{
+  font-size: 13px;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+a{
+  width: 35%;
+}
+.account{
+  width: 15%;
+  height: 55px;
+  margin-top: 1%;
+  margin-left: 235%;
+  border-radius: 100px;
+  background-color: #1d1c1c;
+  border: none;
+}
+.txt3{
+  text-align: center;
+  padding: 1.5%;
+  width: 20%;
+  border: none;
+  border-radius: 30px;
+  margin-left: 40%;
+  margin-top: 10%;
+  background-color: #1d1c1cd5;
+  font-family: "poppins",sans-serif;
+}
+.svg1{
+  width: 40px;
+}
+#time{
+  text-align: center;
+  font-size: 70px;
+  margin-top: 10%;
+}
+#date{
+  text-align: center;
+  font-size: 18px;
+  margin-top: -5%;
+}
+                
+@keyframes animationName {
+                    
+  0% { background-position: 0% 50%; }
+                    
+  50% { background-position: 100% 50%; }
+                    
+  100% { background-position: 0% 50%; }
+                  
+}
